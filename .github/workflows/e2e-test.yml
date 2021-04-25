@@ -1,5 +1,5 @@
 name: E2E Test
-on: [push, pull_request]
+on: [pull_request]
 
 jobs:
   e2e-test:
@@ -9,7 +9,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node-version: ["10.x", "12.x", "14.x"]
+        node-version: ["12.x"]
 
     steps:
       - name: Checkout https://github.com/${{ github.repository }}@${{ github.ref }}
