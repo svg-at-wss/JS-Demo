@@ -15,7 +15,7 @@
     "forever": "3.0.4",
     "helmet": "4.5.0",
     "marked": "2.0.3",
-    "mongodb": "2.2.36",
+    "mongodb": "3.1.13",
     "needle": "2.6.0",
     "node-esapi": "0.0.1",
     "serve-favicon": "2.5.0",
