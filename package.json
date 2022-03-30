@@ -6,7 +6,7 @@
   "main": "server.js",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
-    "body-parser": "1.19.0",
+    "body-parser": "1.19.1",
     "consolidate": "0.16.0",
     "csurf": "1.11.0",
     "dont-sniff-mimetype": "1.1.0",
